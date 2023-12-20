@@ -55,6 +55,7 @@ queue.enqueue(7);
 queue.enqueue(8);
 console.log(queue);
 queue.dequeue();
+console.log(queue);
 console.log(queue.getUnderlyingList());
 
 module.exports = {
